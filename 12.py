@@ -13,8 +13,8 @@ def func(a, b):
     x2 = (a - de_ta ** 0.5) / 2.0
     if x1 == int(x1) and x2 == int(x2):
         return "Yes"
-    else:
-        return "No"
+    
+    return "No"
 
 
 def main():
